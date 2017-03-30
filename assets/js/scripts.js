@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-	$('#hero').css({'height':`85vh - ${$('nav').height()}`})
+	var dynamicHeight = '85vh - ' + $('nav').height()
+	$('#hero').css({'height':dynamicHeight})
 
 	$('.nav-toggle').click(function(){
 		$('.nav-toggle').toggleClass('is-active')

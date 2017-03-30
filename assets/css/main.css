@@ -1,0 +1,35 @@
+a {
+	outline: 0;
+}
+
+#hero {
+	height: calc(85vh - 52px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#hero h1 {
+	max-width: 80%;
+}
+
+#chevron {
+	height: 15vh;
+}
+
+#chevron p {
+	margin: 5px;
+}
+
+#chevron a{
+	color: inherit;
+}
+
+#portfolio{
+	min-height: 100vh;
+	background-color: silver;
+}
+
+#portfolio h1{
+	padding-top: 25px;
+}
